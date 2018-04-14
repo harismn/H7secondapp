@@ -1,0 +1,37 @@
+{
+  "name": "V7",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "hoist-non-react-statics": "^2.5.0",
+    "lodash": "^4.17.5",
+    "react": "^16.3.0-alpha.1",
+    "react-native": "0.54.2",
+    "react-native-deck-swiper": "^1.4.9",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-swipe-cards": "^0.1.1",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^1.5.8",
+    "react-navigation-redux-helpers": "^1.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.9.1",
+    "redux-saga": "^0.16.0",
+    "rn-viewpager": "^1.2.9",
+    "string": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "^16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

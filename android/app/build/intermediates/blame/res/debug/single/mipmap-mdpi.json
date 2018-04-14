@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/harisman/project/github/H7/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/harisman/project/github/H7/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/harisman/project/Refactory/ReactNative/new/github/V7/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/harisman/project/Refactory/ReactNative/new/github/V7/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]
