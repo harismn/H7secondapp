@@ -6,9 +6,9 @@ import Foto from '../../asets'
 export default class Sidebar extends Component {
         _renderTabIndicator() {
         let tabs = [{
-                iconSource: Foto.foto3,
+                iconSource: Foto.setting,
             },{
-                iconSource: Foto.foto1,
+                iconSource: Foto.fire,
             },{
                 iconSource: Foto.foto1,
         }];

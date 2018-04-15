@@ -4,11 +4,13 @@ import {
   StyleSheet,
   Text,
   View,
+  TouchableWithoutFeedback,
   TouchableOpacity,
   Button,
 } from 'react-native';
 import styles from './style'
 import Swiper from 'react-native-swiper';
+import { StackNavigator } from 'react-navigation'
 import Swipe1 from './swipe1'
 import Swipe2 from './swipe2'
 import Swipe3 from './swipe3'
@@ -23,9 +25,9 @@ export default class SwiperSlayer extends Component {
   render(){
     return (
       <Swiper 
-      style={styles.wrapper}
-      showsPagination = {true}
-        >
+          style={styles.wrapper}
+          showsPagination = {true}
+      >
         <Swipe1 />
           <Swipe2 />
             <Swipe3 />

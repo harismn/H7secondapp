@@ -3,9 +3,10 @@ import {
   AppRegistry,
   Text,
   View,
-  TouchableWithoutFeedback,
   Image,
+  TouchableOpacity,
 } from 'react-native';
+import { StackNavigator } from 'react-navigation'
 import styles from './style'
 import Foto from '../../asets'
 
@@ -17,14 +18,20 @@ export default class Swipe6 extends Component {
     render(){
         return(
             <View style={styles.container}>
-            <Image
-            style={styles.image}
-            source={Foto.swipe6}
-            />
-            <Text style={styles.text}>Dan aplikasi ini adalah jawabannya</Text>
-            <Text style={styles.text}> 7 Aplication akan</Text>
-            <Text style={styles.text}>membantu anda untuk menghapalkan banyak vocab</Text>
+                <Image
+                style={styles.image}
+                source={Foto.swipe6}
+                />
+                <Text style={styles.text}>Dan aplikasi ini adalah jawabannya</Text>
+                <Text style={styles.text}> 7 Aplication akan</Text>
+                <Text style={styles.text}>membantu anda untuk menghapalkan banyak vocab</Text>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => this.props.navigation.navigate('welcome')}>
+                        <Text> Login </Text>
+                </TouchableOpacity>
             </View>
         );
     }
 }
+

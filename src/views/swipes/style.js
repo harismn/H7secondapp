@@ -25,6 +25,17 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginBottom: 1,
       },
+      button: {
+        alignItems: 'center',
+        backgroundColor: '#DDDDDD',
+        padding: 10,
+        margin: 10,
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 10,
+        borderWidth: 1,
+        width: '70%',
+      },
   })
 
   export default styles;

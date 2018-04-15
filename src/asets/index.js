@@ -8,6 +8,8 @@ const swipe3 = require('./images/swipe3.jpg')
 const swipe4 = require('./images/swipe4.jpg')
 const swipe5 = require('./images/swipe5.jpg')
 const swipe6 = require('./images/swipe6.jpg')
+const setting = require('./images/setting.png')
+const fire = require('./images/fire.png')
 
 const green = '#7ED321'
 const blue = '#03A9F4'
@@ -32,6 +34,8 @@ export default {
    swipe4,
    swipe5,
    swipe6,
+   setting,
+   fire,
   
     // Color
     green,

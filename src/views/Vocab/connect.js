@@ -12,7 +12,6 @@ import React, {
       class Connect extends Component {
   
         constructor() {
-          // debugger;
           super();
           this.state = {
             data: {}
@@ -25,12 +24,7 @@ import React, {
           Promise.props(promises)
           .then(results => {
             console.log(results);
-            // debugger;
             return results;
-            // return _.mapValues(results, res => {
-            //   debugger;
-            //   return res.value().text()
-            // })
           })
           .then(data => {
             console.log('data', data);
@@ -47,8 +41,6 @@ import React, {
         }
   
       }
-  
-      // return hoistStatics(Connect, WrappedComponent);
       return (
         <Connect />
       )
