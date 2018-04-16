@@ -20,10 +20,48 @@ export default class Swipe1 extends Component {
             style={styles.image}
             source={Foto.swipe1}
             />
-            <Text style={styles.text}>Mustahil untuk tahu 100%</Text>
-            <Text style={styles.text}>tau tentang bahasa inggris.</Text>
-            <Text style={styles.text}>Selalu ada kata baru yang harus dipelajari</Text>
+            <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+                <Text style={styles.text}>Mustahil untuk tahu 100%</Text>
+                <Text style={styles.text}>tentang bahasa inggris.</Text>
+                <Text style={styles.text}>Selalu ada kata baru </Text>
+                <Text style={styles.text}>yang harus dipelajari</Text>
+            </View>
             </View>
         );
     }
 }
+
+/*
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center', 
+        backgroundColor: '#FF9500',
+        padding:  50
+    },
+    textUp: {
+        fontSize : 20,
+        fontWeight: 'bold',
+        color: 'white',
+        // padding: 20,
+    },
+    newStyle: {
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    button: {
+        alignItems: 'center',
+        backgroundColor: '#DDDDDD',
+        padding: 10,
+        margin: 10,
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 10,
+        borderWidth: 1,
+        paddingHorizontal: 30,
+    },
+})
+
+export default styles;
+*/

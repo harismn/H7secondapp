@@ -21,9 +21,10 @@ export default class Swipe4 extends Component {
             style={styles.image}
             source={Foto.swipe4}
             />
-            <Text style={styles.text}>Dengan banyaknya vocabulary yang </Text>
-            <Text style={styles.text}> Anda kuasai.</Text>
-            <Text style={styles.text}>maka akan semakin mudah untuk memahaminya</Text>
+            <Text style={styles.text}>Dengan banyaknya vocabulary</Text>
+            <Text style={styles.text}>yang Anda kuasai.</Text>
+            <Text style={styles.text}>maka akan semakin </Text>
+            <Text style={styles.text}>mudah untuk memahaminya</Text>
             </View>
         );
     }

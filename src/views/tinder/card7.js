@@ -23,9 +23,7 @@ export default class Card1 extends Component {
               onChangeText={(text) => this.setState({text})}
               value={this.state.text}
               placeholder="masukan teks di sini"
-              placeholderTextColor="#BDBDBD"
-              
-
+              placeholderTextColor="#BDBDBD"              
             />
             <Text style={styles.secondText}>Hasil Translate</Text>
             <TouchableOpacity style={styles.button}
@@ -69,3 +67,4 @@ const styles = StyleSheet.create({
       margin: 50,
     }
   })
+  

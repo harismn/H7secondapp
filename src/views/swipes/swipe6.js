@@ -22,13 +22,15 @@ export default class Swipe6 extends Component {
                 style={styles.image}
                 source={Foto.swipe6}
                 />
-                <Text style={styles.text}>Dan aplikasi ini adalah jawabannya</Text>
-                <Text style={styles.text}> 7 Aplication akan</Text>
-                <Text style={styles.text}>membantu anda untuk menghapalkan banyak vocab</Text>
+                <Text style={styles.text}>Dan aplikasi ini</Text>
+                <Text style={styles.text}>adalah jawabannya</Text>
+                <Text style={styles.text}>7 Aplication akan</Text>
+                <Text style={styles.text}>membantu anda untuk </Text>
+                <Text style={styles.text}>menghapalkan banyak vocab</Text>
                 <TouchableOpacity
                     style={styles.button}
                     onPress={() => this.props.navigation.navigate('welcome')}>
-                        <Text> Login </Text>
+                        <Text> Lanjutkan </Text>
                 </TouchableOpacity>
             </View>
         );
